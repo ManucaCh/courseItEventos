@@ -5,12 +5,14 @@ body {
 
 .mainContainer {
   background-color: #00bacd;
-  width: %100;
+  width: 80vh;
+  height: ;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
 }
 
 .searchContainer {
@@ -23,7 +25,7 @@ body {
   justify-content: center;
 }
 
-.userInput {
+#userInput {
   height: 50px;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -32,8 +34,9 @@ body {
   font-size: 1.25em;
   color: #757575;
   text-indent: 10px;
+  outline-style: none;
 }
-.button {
+#searchButton {
   margin-top: 10px;
   height: 50px;
   background-color: #00e9fe;
@@ -43,4 +46,5 @@ body {
   font-weight: bold;
   color: #006e79;
   cursor: pointer;
+  box-shadow: 0px 0px 10px 0px;
 }
